@@ -10,7 +10,7 @@ const Contact = () => {
   const onSubmit = (data) => console.log(data);
   return (
     <div className="p-12">
-      <h1 className="text-white text-5xl font-bold text-center">Send Mail</h1>
+      <h1 className="text-white text-5xl font-bold text-center mt-10">Send Mail</h1>
       <div class="divider"></div>
 
       <div class="card m-auto w-2/3 bg-base-100 shadow-xl">

@@ -6,3 +6,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.title {
+  color: #34f62d;
+}
+
+.title {
+  /* width: 100%; */
+  height: 100%;
+  width: max-content;
+}

@@ -1,0 +1,14 @@
+.nav {
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    /* background-color: rgb(255, 230, 0); */
+}
+
+.nav.sticky {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1 !important;
+}

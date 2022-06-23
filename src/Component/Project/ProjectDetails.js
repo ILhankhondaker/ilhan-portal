@@ -50,7 +50,7 @@ const ProjectDetails = () => {
                         <h1 class="text-5xl font-bold text-white">
                             Car Ride House
                         </h1>
-                        <h3 className='text-3xl text-white'>This is a manufacturer website </h3>
+                        <h3 className='text-3xl text-white'>This is a Warehouse management </h3>
                         <br />
                         <h4 className='text-2xl'>Feature:</h4>
                         <p>• You can buy wholesale products from there.
@@ -96,29 +96,25 @@ const ProjectDetails = () => {
                         <h1 class="text-5xl font-bold text-white">
                             Doc Time
                         </h1>
-                        <h3 className='text-3xl text-white'>This is a manufacturer website </h3>
+                        <h3 className='text-3xl text-white'>This is a Single Appointment website </h3>
                         <br />
                         <h4 className='text-2xl'>Feature:</h4>
-                        <p>• You can buy wholesale products from there.
+                        <p>• This is simple booking website
                         </p>
-                        <p>•If you want to purchase any item, you have to login first.</p>
-                        <p>•If you purchase any item, it will be added to the dashboard,fter which the Payment option will come up.
+                        <p>•You can booked your doctor</p>
+                        <p>• Have a login formdashboard,fter which the Payment
                         </p>
-                        <p>•If you are an admin, you can see all user and add a
-                            Product & manage product.</p>
-                        <p>•If you want, you can also add product and delete</p>
 
 
                         <div class="divider"></div>
                         <div className="">
                             <h4 className='text-2xl'>Elements:</h4>
                             <p>•Language: Java Script </p>
-                            <p>•Library-Frame work: React JS/ Node JS\ Express JS</p>
-                            <p>•Style: React-Tailwind CSS/ DaisyUI</p>
-                            <p >•Backend Database: MongoDB (No SQL)</p>
+                            <p>•Library-Frame work: React JS</p>
+                            <p>•Style: CSS/ Tailwind </p>
                             <p >•Authentication: Firebase</p>
-                            <p >•Hosting: Firebase/ Heroku/ imgbb
-                            </p>
+                            <p >•Hosting: Firebase</p>
+
                         </div>
 
                     </div>

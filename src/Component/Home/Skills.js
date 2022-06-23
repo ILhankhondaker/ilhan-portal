@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import TypeAnimation from "react-type-animation";
 
 const Skills = () => {
     const [skillsData, setSkillsData] = useState([]);
@@ -14,12 +15,25 @@ const Skills = () => {
         >
             {/* Container */}
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-                <div>
-                    <p className="text-4xl font-bold inline border-b-4 border-yellow-500 ">
-                        My Skills. . .
+                <div className="pb-8">
+                    <p className="text-4xl font-bold inline border-b-4 text-white border-black bg-accent px-3">
+                        My Skills
+                        <TypeAnimation className="block-inline"
+                            cursor={true}
+                            sequence={[
+                                '.',
+                                2000,
+                                '. .',
+                                2000,
+                                ' . . .',
+                            ]}
+                            wrapper="a"
+                            repeat={3}
+                        />
                     </p>
-                    <p className="py-4">These are the technologies I've worked with</p>
+                    <p className="py-6 text-white font-bold">These are the technologies I've worked with</p>
                 </div>
+
 
                 <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
                     {skillsData.map((skill) => (

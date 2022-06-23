@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-base-100 px-12">
+    <div class="navbar  bg-accent px-12 nav  sticky top-0">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -31,14 +31,12 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="">About me</Link>
+              <Link to="about">About me</Link>
             </li>
             <li>
               <Link to="project">My Project</Link>
             </li>
-            <li>
-              <Link to="">Portfolio</Link>
-            </li>
+
             <li>
               <Link to="skill">Skill</Link>
             </li>
@@ -46,16 +44,16 @@ const Navbar = () => {
               <Link to="blog">Blog</Link>
             </li>
             <li>
-              <Link to="">Contact</Link>
+              <Link to="contact">Contact</Link>
             </li>
           </ul>
         </div>
-        <Link to="/" class="btn btn-ghost normal-case text-xl">
+        <Link to="/" class="btn btn-ghost normal-case text-xl text-white font-bold">
           Ilhan Khondaker
         </Link>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
+        <ul class="menu menu-horizontal p-0 text-white">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -65,9 +63,7 @@ const Navbar = () => {
           <li>
             <Link to="project">My Project</Link>
           </li>
-          <li>
-            <Link to="">Portfolio</Link>
-          </li>
+
           <li>
             <Link to="skill">Skill</Link>
           </li>
@@ -75,7 +71,7 @@ const Navbar = () => {
             <Link to="blog">Blog</Link>
           </li>
           <li>
-            <Link to="">Contact</Link>
+            <Link to="contact">Contact</Link>
           </li>
         </ul>
       </div>

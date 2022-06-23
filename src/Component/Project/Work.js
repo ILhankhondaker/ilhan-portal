@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 const Work = ({ work }) => {
     const { img, name, theme, live, client, server } = work;
     return (
-        <div>
+        <div >
             <div
                 style={{ backgroundImage: `url(${img})` }}
-                className="shadow-lg shadow-dark group container rounded-md flex justify-center items-center mx-auto content-div"
+                className="shadow-lg shadow-dark group container rounded-md flex justify-center items-center mx-auto content-div "
             >
                 {/* Hover Effects */}
-                <div className="opacity-0 group-hover:opacity-100 ">
+                <div className="opacity-0  group-hover:opacity-100 ">
                     <span className="text-2xl font-bold text-white tracking-wider">
                         {name}
                     </span>
@@ -39,7 +39,7 @@ const Work = ({ work }) => {
             <div>
                 <p className="py-3 text-xl text-center">{theme}</p>
             </div>
-            <button className="bg-orange-500 text-white p-2 rounded-full btn-warning">  <Link to="projectDetails">Project Details ↦</Link></button>
+            <button className=" btn btn-outline btn-warning">  <Link to="projectDetails">Project Details ↦</Link></button>
         </div>
     );
 };

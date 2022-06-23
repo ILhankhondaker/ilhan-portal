@@ -7,7 +7,7 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="p-12">
-      <h1 className="text-5xl font-bold text-center">My Projects</h1>
+      <h1 className="text-5xl font-bold text-center ">My Projects</h1>
       <div class="divider"></div>
       <div className="grid grid-cols-1 md:grid-cols-3">
         <div class="card lg:card-side bg-base-100 shadow-xl">
