@@ -1,0 +1,23 @@
+.item {
+    background-color: white;
+    padding: 0%;
+}
+
+.item:hover {
+    background-color: #5c5988;
+    color: antiquewhite;
+}
+
+.image {
+    width: 20%;
+}
+
+.item:hover .card-title {
+    color: beige;
+}
+
+
+
+.card-title {
+    color: #302b4c;
+}

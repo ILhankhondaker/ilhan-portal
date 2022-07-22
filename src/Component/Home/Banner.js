@@ -104,7 +104,7 @@ const Banner = () => {
         <div class="max-w-lg">
 
           <div className="py-10">
-            <h1 class="text-white  lg:text-4xl font-bold title">
+            <h1 class="text-white md:text-2xl lg:text-4xl font-bold title">
               <TypeAnimation
                 cursor={true}
                 sequence={[
