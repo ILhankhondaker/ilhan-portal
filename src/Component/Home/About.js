@@ -15,6 +15,7 @@ const About = () => {
         />
 
         <div className="px-10 ">
+          <h1>This is Home About</h1>
           <h1 class="text-5xl font-bold text-white">
             I Am A web Developer <br /> Based In Bangladesh.
           </h1>

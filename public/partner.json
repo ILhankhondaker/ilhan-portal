@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "University of Salford",
+        "location": "Salford",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/146.png"
+    },
+    {
+        "id": 2,
+        "name": "University of East Anglia",
+        "location": "Norwich",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/114.png"
+    },
+    {
+        "id": 3,
+        "name": "Swansea University",
+        "location": "Swansea",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/153.png"
+    },
+    {
+        "id": 4,
+        "name": "University of Central Lancashire",
+        "name": "Preston",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/209.png"
+    },
+    {
+        "id": 5,
+        "name": "University of Stirling",
+        "location": "Stirling",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/161.png"
+    },
+    {
+        "id": 6,
+        "name": "Ulster University",
+        "location": "Belfast",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/154.png"
+    },
+    {
+        "id": 7,
+        "name": "University of Greenwich",
+        "location": "MongoDb",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/123.png"
+    },
+    {
+        "id": 8,
+        "name": "University of Bedfordshire",
+        "location": "Luton",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/102.png"
+    },
+    {
+        "id": 9,
+        "name": "Manchester Metropolitan University",
+        "location": "Manchester",
+        "img": "https://samsglobal.co.uk/uploads/universities_image/logo/137.png"
+    }
+]

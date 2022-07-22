@@ -4,7 +4,7 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div class="navbar  bg-accent px-12 nav  sticky top-0">
+    <div class="navbar  bg-white  px-12 nav  sticky top-0">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -25,51 +25,36 @@ const Navbar = () => {
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-50 rounded-box w-52 navText font-bold"
           >
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="about">About me</Link>
-            </li>
-            <li>
-              <Link to="project">My Project</Link>
+              <Link to="aboutus">About US </Link>
             </li>
 
-            <li>
-              <Link to="skill">Skill</Link>
-            </li>
-            <li>
-              <Link to="blog">Blog</Link>
-            </li>
+
+
             <li>
               <Link to="contact">Contact</Link>
             </li>
           </ul>
         </div>
-        <Link to="/" class="btn btn-ghost normal-case text-xl text-white font-bold">
-          Ilhan Khondaker
+        <Link to="/" class="btn btn-ghost normal-case text-xl text-white font-bold ">
+          {/* ===========menu logo ======= */}
+          <img className="logo" src="https://samsapply.co.uk/landrick/images/SAMS-Apply-Logo-[208x32].svg" alt="" srcset="" />
         </Link>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0 text-white">
+        <ul class="menu menu-horizontal p-0 navText font-bold">
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="about">About me</Link>
-          </li>
-          <li>
-            <Link to="project">My Project</Link>
+            <Link to="aboutus">About US</Link>
           </li>
 
-          <li>
-            <Link to="skill">Skill</Link>
-          </li>
-          <li>
-            <Link to="blog">Blog</Link>
-          </li>
           <li>
             <Link to="contact">Contact</Link>
           </li>
